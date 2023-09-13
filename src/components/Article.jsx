@@ -3,8 +3,13 @@ import "../styles/Article.css"
 
 export const Article =()=>{
     return(
-        <div>
-           
+        <div className="main">
+           <div className="picture">
+
+           </div>
+           <div className="article">
+            your article will appear here 
+           </div>
         </div>
     )
 }
