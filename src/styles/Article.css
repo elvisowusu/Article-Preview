@@ -1,4 +1,30 @@
 .main{
     display: flex;
-    width: 70rem;
+    
+    width: 65rem;
+    height: 350px;
+    background-color: red;
+}
+.picture{
+    position: relative;
+    width: 36rem;
+    height: 350px;
+    overflow: hidden;
+}
+.drawers{
+
+    position: absolute;
+}
+.articlePage{
+    padding: 3rem;
+}
+.source{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

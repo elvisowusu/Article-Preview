@@ -14,7 +14,7 @@ export const Article =()=>{
     return(
         <div className="main">
            <div className="picture">
-                <img src={drawers} alt="" height={400} />
+                <img src={drawers} alt="" height={350} className="drawers"/>
            </div>
            <div className="articlePage">
                 <div>
