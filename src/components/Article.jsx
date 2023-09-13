@@ -27,7 +27,7 @@ export const Article =()=>{
                 </div>
                 <div className="source">
                     <div className="profile">
-                     <div className="img"><img src={avatar} alt="" /></div>
+                     <img src={avatar} alt="" />
                      <div>
                         <h3>Michelle Appleton</h3>
                         <p>20 Jun 2020</p>

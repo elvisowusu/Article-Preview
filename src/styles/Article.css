@@ -1,15 +1,17 @@
 .main{
     display: flex;
-    
-    width: 65rem;
+    width: 60rem;
     height: 350px;
     background-color: red;
+    border-radius: 1rem;
 }
 .picture{
     position: relative;
     width: 36rem;
     height: 350px;
     overflow: hidden;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .drawers{
 
@@ -27,4 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.profile> img{
+    border-radius: 50%;
+    height: 4rem;
 }
