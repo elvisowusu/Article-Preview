@@ -1,5 +1,9 @@
 import React from "react";
 import "../styles/Article.css"
+import avatar  from '../assets/avatar-michelle.jpg'
+import drawers from '../assets/drawers.jpg'
+
+
 
 export const Article =()=>{
     return(
