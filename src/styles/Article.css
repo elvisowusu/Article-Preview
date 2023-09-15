@@ -1,29 +1,39 @@
 .main{
     display: flex;
-    width: 60rem;
-    height: 350px;
+    width: 51rem;
+    height: 280px;
     background-color: red;
     border-radius: 1rem;
+    line-height: 1.2;
 }
+
 .picture{
     position: relative;
-    width: 36rem;
-    height: 350px;
+    width: 46rem;
+    height: 280px;
     overflow: hidden;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
+p{
+    line-height: 1.5;
+}
 .drawers{
-
     position: absolute;
 }
 .articlePage{
-    padding: 3rem;
+    padding: 2.5rem;
 }
 .source{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+h1{
+    margin-bottom: 0.6rem;
+}
+.content{
+    margin-bottom: 1rem;
 }
 .profile{
     display: flex;
@@ -32,5 +42,6 @@
 }
 .profile> img{
     border-radius: 50%;
-    height: 4rem;
+    height: 2.5rem;
+    margin-right: 1rem;
 }

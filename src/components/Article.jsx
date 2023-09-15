@@ -14,13 +14,13 @@ export const Article =()=>{
     return(
         <div className="main">
            <div className="picture">
-                <img src={drawers} alt="" height={350} className="drawers"/>
+                <img src={drawers} alt="" height={280} className="drawers"/>
            </div>
            <div className="articlePage">
-                <div>
-                    <h3>
+                <div className="content">
+                    <h1>
                     Shift the overall look and feel by adding these wonderful touches to furniture in your home
-                    </h3>
+                    </h1>
                     <p>
                         Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.I've got some simple tips to help you make any room feel complete.
                     </p>
