@@ -1,15 +1,16 @@
 .main{
     display: flex;
-    width: 51rem;
+    width: 44rem;
     height: 280px;
     background-color: red;
     border-radius: 1rem;
     line-height: 1.2;
+    background-color: white;
 }
 
 .picture{
     position: relative;
-    width: 45rem;
+    width: 42.9rem;
     height: 280px;
     overflow: hidden;
     border-top-left-radius: 1rem;
@@ -17,6 +18,10 @@
 }
 p{
     line-height: 1.5;
+    color:hsla(217, 16%, 28%, 0.481);
+}
+.content>p{
+    margin-bottom: 1.5rem;
 }
 .drawers{
     position: absolute;
@@ -29,8 +34,10 @@ p{
     justify-content: space-between;
     align-items: center;
 }
-h1{
+h2{
     margin-bottom: 0.6rem;
+    font-weight: 700;
+    color: hsl(217, 37%, 26%);
 }
 .content{
     margin-bottom: 1rem;
@@ -45,17 +52,14 @@ h1{
     height: 2.5rem;
     margin-right: 1rem;
 }
-h1{
-    font-weight: 700;
-}
 .share{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:hsl(215, 7%, 45%);
+    background-color:hsl(210, 46%, 95%);
     height: 1.6rem;
     width: 1.6rem;
     border-radius: 50%;
     font-size: 1rem;
-    color: hsl(210, 46%, 95%);
+    color: hsl(217, 19%, 35%);
 }
