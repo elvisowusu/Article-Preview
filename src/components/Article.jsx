@@ -47,9 +47,9 @@ export const Article =()=>{
                         {clicked?
                         <div className="shareOptions">
                             <p>SHARE</p> 
-                            <AiFillFacebook/>
-                            <SiTwitter/>
-                            <BsPinterest/>
+                            <button><AiFillFacebook/></button>
+                            <button><SiTwitter/></button>
+                            <button><BsPinterest/></button>
                         </div>
                         :""
                          }
