@@ -57,12 +57,12 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:hsl(217, 19%, 35%);
+    color:hsl(217, 19%, 35%);
     height: 1.7rem;
     width: 1.7rem;
     border-radius: 50%;
     font-size: 1rem;
-    color: hsl(210, 46%, 95%);
+    background-color: hsl(210, 46%, 95%);
     cursor: pointer;
     padding: 0.1rem;
     border: none;
