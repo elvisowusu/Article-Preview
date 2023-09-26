@@ -84,7 +84,6 @@ h2{
     background-color: hsl(217, 19%, 35%);
     color:hsl(210, 46%, 95%) ;
     padding: 0.7rem 2rem;
-    font-size: 1.2rem;
     border-radius: 0.5rem;
     box-shadow: 0rem 0rem 0.8rem grey;
 }
@@ -92,4 +91,17 @@ h2{
     color: hsla(210, 46%, 95%, 0.597);
     letter-spacing: 0.2rem;
     font-size: 0.6rem;
+}
+.optionsBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+.optionsBtn:hover{
+    cursor: pointer;
+    color:hsla(210, 46%, 95%, 0.91) ;
 }
