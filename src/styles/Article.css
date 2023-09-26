@@ -52,15 +52,25 @@ h2{
     height: 2.5rem;
     margin-right: 1rem;
 }
-.share{
+.shareBtn{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color:hsl(217, 19%, 35%);
-    height: 1.6rem;
-    width: 1.6rem;
+    height: 1.5rem;
+    width: 1.5rem;
     border-radius: 50%;
     font-size: 1rem;
     color: hsl(210, 46%, 95%);
     cursor: pointer;
+    padding: 0.1rem;
+    border: none;
+}
+.share{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
 }
