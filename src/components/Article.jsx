@@ -16,8 +16,15 @@ export const Article =()=>{
     const handleClickEvent=()=>{
         const newClicked = !clicked;
         setClicked(newClicked);
-        console.log(newClicked);
     }
+
+    const shareButtonStyle =()=>{
+        return{
+            color:`hsl(210, 46%, 95%)`,
+            backgroundColor: `hsl(217, 19%, 35%)`,
+        };
+    };
+
 
     return(
         <div className="main">
@@ -55,7 +62,7 @@ export const Article =()=>{
                         :""
                          }
 
-                        <button className="shareBtn">
+                        <button style={shareButtonStyle()} className="shareBtn">
                         <PiShareFatFill onClick={handleClickEvent} />
                         </button>
                     </div>
