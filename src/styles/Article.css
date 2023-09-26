@@ -87,6 +87,16 @@ h2{
     border-radius: 0.5rem;
     box-shadow: 0rem 0rem 0.8rem grey;
 }
+.shareOptions::after {
+    content: '';
+    position: absolute;
+    bottom: -15px; /* Adjust this value to control the tail's height */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 15px 15px 0px;
+    border-style: solid;
+    border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+}
 .shareOptions>p{
     color: hsla(210, 46%, 95%, 0.597);
     letter-spacing: 0.2rem;
@@ -105,3 +115,4 @@ h2{
     cursor: pointer;
     color:hsla(210, 46%, 95%, 0.91) ;
 }
+
