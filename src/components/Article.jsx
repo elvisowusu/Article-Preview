@@ -44,12 +44,15 @@ export const Article =()=>{
 
                     
                     <div className="share">
+                        {clicked?
                         <div className="shareOptions">
                             <p>SHARE</p> 
                             <AiFillFacebook/>
                             <SiTwitter/>
                             <BsPinterest/>
                         </div>
+                        :""
+                         }
 
                         <button className="shareBtn">
                         <PiShareFatFill onClick={handleClickEvent} />
