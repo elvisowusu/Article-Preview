@@ -14,8 +14,9 @@ export const Article =()=>{
     const [clicked,setClicked] = useState(false);
 
     const handleClickEvent=()=>{
-        setClicked(!false);
-        console.log("clicked ");
+        const newClicked = !clicked;
+        setClicked(newClicked);
+        console.log(newClicked);
     }
 
     return(
@@ -40,8 +41,11 @@ export const Article =()=>{
                         <p>20 Jun 2020</p>
                      </div>
                     </div>
-                    <div className="share">
-                   <PiShareFatFill onClick={handleClickEvent}/>
+
+                    <div className="invisible">
+                      <div className="share">
+                        <PiShareFatFill onClick={handleClickEvent}/>
+                      </div>
                     </div>
                 </div>
            </div>
