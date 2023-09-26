@@ -43,12 +43,18 @@ export const Article =()=>{
                     </div>
 
                     
-                      <div className="share">
+                    <div className="share">
+                        <div className="shareOptions">
+                            <p>SHARE</p> 
+                            <AiFillFacebook/>
+                            <SiTwitter/>
+                            <BsPinterest/>
+                        </div>
+
                         <button className="shareBtn">
                         <PiShareFatFill onClick={handleClickEvent} />
                         </button>
-                        
-                      </div>
+                    </div>
                     
                 </div>
            </div>
