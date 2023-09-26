@@ -56,11 +56,11 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:hsl(210, 46%, 95%);
+    background-color:hsl(217, 19%, 35%);
     height: 1.6rem;
     width: 1.6rem;
     border-radius: 50%;
     font-size: 1rem;
-    color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
     cursor: pointer;
 }

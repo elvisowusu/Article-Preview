@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Article.css"
 import avatar  from '../assets/avatar-michelle.jpg'
 import drawers from '../assets/drawers.jpg'
@@ -11,6 +11,8 @@ import { PiShareFatFill } from "react-icons/pi";
 
 
 export const Article =()=>{
+    const [clicked,setClicked] = useState(false);
+
     return(
         <div className="main">
            <div className="picture">
@@ -34,7 +36,7 @@ export const Article =()=>{
                      </div>
                     </div>
                     <div className="share">
-                   <PiShareFatFill/>
+                   <PiShareFatFill />
                     </div>
                 </div>
            </div>
