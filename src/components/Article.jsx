@@ -18,11 +18,16 @@ export const Article =()=>{
         setClicked(newClicked);
     }
 
-    const shareButtonStyle =()=>{
-        return{
-            color:`hsl(210, 46%, 95%)`,
-            backgroundColor: `hsl(217, 19%, 35%)`,
-        };
+    const shareButtonStyle = (state) => {
+        state = clicked;
+        if (state) {
+            return {
+                color: 'hsl(210, 46%, 95%)',
+                backgroundColor: 'hsl(217, 19%, 35%)',
+            };
+        } else {
+            return {};
+        }
     };
 
 
