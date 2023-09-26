@@ -14,7 +14,7 @@ export const Article =()=>{
     const [clicked,setClicked] = useState(false);
 
     const handleClickEvent=()=>{
-        setClicked(!clicked);
+        setClicked(!false);
         console.log("clicked ");
     }
 
