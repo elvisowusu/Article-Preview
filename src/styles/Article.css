@@ -72,4 +72,11 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.shareOptions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
