@@ -13,6 +13,11 @@ import { PiShareFatFill } from "react-icons/pi";
 export const Article =()=>{
     const [clicked,setClicked] = useState(false);
 
+    const handleClickEvent=()=>{
+        setClicked(!clicked);
+        console.log("clicked ");
+    }
+
     return(
         <div className="main">
            <div className="picture">
@@ -36,7 +41,7 @@ export const Article =()=>{
                      </div>
                     </div>
                     <div className="share">
-                   <PiShareFatFill />
+                   <PiShareFatFill onClick={handleClickEvent}/>
                     </div>
                 </div>
            </div>
