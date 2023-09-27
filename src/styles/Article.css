@@ -17,7 +17,8 @@
 }
 p{
     line-height: 1.3;
-    color:hsla(217, 16%, 28%, 0.481);
+    color:hsl(214, 17%, 51%);
+
 }
 .content>p{
     margin-bottom: 1.5rem;
@@ -148,7 +149,11 @@ h2{
         margin-bottom: 0.9rem;
     }
     .content>p{
+        font-size: 0.83rem;
         margin-bottom: 2.4rem;
+        word-spacing: 0.1rem;
+        font-weight: 100;
+        line-height: 1.2rem;
     }
 
 }
