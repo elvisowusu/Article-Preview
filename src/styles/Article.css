@@ -135,11 +135,13 @@ h2{
         width: 22rem;
         height: 14.5rem;
         overflow-x: visible;
-        border-top-right-radius: 1rem;
-        border-bottom-left-radius: 0;
+        border-radius: 1rem 1rem 0rem 0rem;
     }
     .articlePage{
-    padding: 2.4rem 1.5rem 1rem;
+        padding: 2.4rem 1.5rem 1rem;
+        position: relative;
+        background-color: red;
+        border-radius: 0rem 0rem 1rem 1rem;
     }
     h2{
         font-size: 1.1rem;
@@ -155,5 +157,36 @@ h2{
         font-weight: 100;
         line-height: 1.2rem;
     }
-
+    .share{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:"";
+    }
+    .shareOptions{
+        top: -0.2rem;
+        height: 3rem;
+        left: -18.8rem;
+        gap: 1rem;
+        bottom: 0rem;
+        padding: 0.7rem 2rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+        box-shadow: 0rem 0rem 0rem grey;
+        width: 18.021rem;
+    }
+    .shareOptions::after {
+        content:none;
+        position: absolute;
+        bottom: 0; /* Adjust this value to control the tail's height */
+        left: 0;
+        transform: translateX(0%);
+        border:none;
+    }
+    .optionsBtn{
+        font-size: 1.4rem;
+    }
+    .shareBtn{
+        z-index: 2;
+    }
 }
