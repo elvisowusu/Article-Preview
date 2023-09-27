@@ -58,13 +58,13 @@ h2{
     justify-content: center;
     align-items: center;
     color:hsl(217, 19%, 35%);
-    height: 1rem;
-    width: 1rem;
+    height: 1.7rem;
+    width: 1.7rem;
     border-radius: 50%;
     font-size: 1rem;
     background-color: hsl(210, 46%, 95%);
     cursor: pointer;
-    padding: 0.3rem;
+    padding: 0.1rem;
     border: none;
 }
 .share{
