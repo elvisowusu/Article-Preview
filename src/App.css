@@ -14,3 +14,6 @@ body{
     height: 100vh;
     background-color:hsl(210, 46%, 95%);
 }
+@media screen and (max-width:600px) {
+  body{}
+}
