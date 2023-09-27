@@ -67,9 +67,8 @@ export const Article =()=>{
                         :""
                          }
 
-                        <button style={shareButtonStyle()} className="shareBtn">
-                        <PiShareFatFill onClick={handleClickEvent} />
-                        </button>
+                        
+                        <PiShareFatFill style={shareButtonStyle()} className="shareBtn" onClick={handleClickEvent} />
                     </div>
                     
                 </div>
