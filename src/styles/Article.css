@@ -2,7 +2,6 @@
     display: flex;
     width: 44rem;
     height: 280px;
-    background-color: red;
     border-radius: 1rem;
     line-height: 1.2;
     background-color: white;
@@ -121,5 +120,21 @@ h2{
 }
 
 @media screen and (max-width:600px){
-    
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 20rem;
+        height: 85vh;
+        border-radius: 1rem;
+        line-height: 1.2;
+        background-color: white;
+    }
+    .picture{
+        position: relative;
+        width: 42.9rem;
+        height: 280px;
+        overflow: hidden;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
 }
