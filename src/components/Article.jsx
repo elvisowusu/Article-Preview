@@ -23,8 +23,8 @@ export const Article =()=>{
         state = clicked;
         if (state) {
             return {
-                color: 'hsl(210, 46%, 95%)',
-                backgroundColor: 'hsl(217, 19%, 35%)',
+                color: 'hsl(217, 19%, 35%)',
+                backgroundColor: 'hsl(210, 46%, 95%)',
             };
         } else {
             return {};
